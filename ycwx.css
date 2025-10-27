@@ -1,0 +1,254 @@
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #113e4e;
+  color: #e0f4f8;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 1000;
+  border-bottom: 3px solid #98daec;
+}
+
+body {
+  margin: 0;
+  background-color: #006078;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 80px;
+  width: 100%;
+  flex: 1;
+  margin-left: 25px;
+  align-items: flex-start;
+}
+
+.judul {
+  color: #8cc1e4;
+  left: 15px;
+}
+
+.isi {
+  color: #faefed;
+  width: 80%;
+  left: 15px;
+}
+
+.bold, .a2 {
+  color: #d28678;
+}
+
+.kiri {
+  width: 60%;
+  flex: 1;
+}
+
+.clickable {
+  color: #b7aad0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hidden, .hidden2 {
+  display: none;
+  width: 50%;
+}
+
+#inner-text, #inner2 {
+  background: #16778f;
+  color: #ebdad7;
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  width: 70%;
+}
+
+.sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 270px;
+  align-self: flex-start;  /* Ubah dari flex-end ke flex-start agar tidak turun */
+  margin-right: 100px;
+}
+
+.right-box {
+  width: 270px;
+  background-color: #132639;
+  border: 2px solid #00e6c3;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  font-size: 10px;
+  transition: background 0.3s, color 0.3s;
+  color: #6ce2eb;
+  text-align: center;
+  font-size: 22px;
+}
+
+.damn {
+  color: #6ce2eb;
+  font-size: 17px;
+}
+
+.info-btn {
+  background-color: #0f172a;
+  color: #3dd6e1;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.a3 {
+  color: #00e6c3;
+}
+
+.info-btn:hover {
+  background-color: #322fe0;
+}
+
+.links {
+  width: 270px;
+  background-color: #132639;
+  border: 2px solid #00e6c3;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  font-size: 17px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hmzz {
+  color: #6ce2eb;
+  text-align: center;
+  font-size: 22px;
+}
+
+.accordion-btn {
+  background-color: #0f172a;
+  color: #6ce2eb;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.accordion-btn:hover {
+  background-color: #38bdf8;
+  color: #0f172a;
+}
+
+.box3 {
+  width: 270px;
+  background-color: #132639;
+  border: 2px solid #00e6c3;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  font-size: 17px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hmzzz {
+  color: #6ce2eb;
+  padding: 7px;
+  font-size: 17px;
+}
+
+.panel, .ai-list {
+  width: 250px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding-left: 10px;
+  background-color: #0f172a;
+}
+
+.panel ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+a {
+  color: #ffd1f9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(53, 130, 181);
+  text-decoration: underline;
+}
+
+.links a:visited {
+  color: #66636b;
+}
+
+a:active {
+  color: #6649a0;
+}
+
+.field {
+  background-color: #0f172a;
+  color: #3dd6e1;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+  flex: 3;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #070d75, #02413a);
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  border-top-left-radius: 50% 90%;
+  border-top-right-radius: 50% 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #070d75, #02413a);
+  padding: 20px 15px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 50% 90%;
+  border-top-right-radius: 50% 90%;
+  padding: 10px;
+  min-height: 85px;
+}
+
+.kaki {
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
